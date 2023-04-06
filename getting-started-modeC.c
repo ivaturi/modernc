@@ -1,7 +1,5 @@
-#include <stdlib.h>
-#include <stdio.h>
 
-int main(void){
+void main(){
     // declarations
     double A[5] = {
 	[0] = 9.0,
@@ -15,5 +13,5 @@ int main(void){
 	printf("Element %zu is %g, \t\t its square is %g\n", i, A[i],  A[i] * A[i]);
     }
 
-    return EXIT_SUCCESS;
+    return 0;
 }
